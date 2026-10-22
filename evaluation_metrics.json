@@ -1,0 +1,139 @@
+{
+  "macro_f1": 0.0,
+  "micro_f1": 0.0,
+  "macro_precision": 0.0,
+  "macro_recall": 0.0,
+  "hamming_loss": 0.03644330112519346,
+  "roc_auc_per_label": {
+    "toxic": 0.9394622915666764,
+    "severe_toxic": 0.985153056522798,
+    "obscene": 0.956725303106766,
+    "threat": 0.9349345417925478,
+    "insult": 0.9454662201015627,
+    "identity_hate": 0.8458250603358266
+  },
+  "classification_report": {
+    "toxic": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1513.0
+    },
+    "severe_toxic": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 154.0
+    },
+    "obscene": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 839.0
+    },
+    "threat": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 50.0
+    },
+    "insult": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 781.0
+    },
+    "identity_hate": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 148.0
+    },
+    "micro avg": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3485.0
+    },
+    "macro avg": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3485.0
+    },
+    "weighted avg": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3485.0
+    },
+    "samples avg": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3485.0
+    }
+  },
+  "multilabel_confusion_matrices": [
+    [
+      [
+        14425,
+        0
+      ],
+      [
+        1513,
+        0
+      ]
+    ],
+    [
+      [
+        15784,
+        0
+      ],
+      [
+        154,
+        0
+      ]
+    ],
+    [
+      [
+        15099,
+        0
+      ],
+      [
+        839,
+        0
+      ]
+    ],
+    [
+      [
+        15888,
+        0
+      ],
+      [
+        50,
+        0
+      ]
+    ],
+    [
+      [
+        15157,
+        0
+      ],
+      [
+        781,
+        0
+      ]
+    ],
+    [
+      [
+        15790,
+        0
+      ],
+      [
+        148,
+        0
+      ]
+    ]
+  ]
+}
